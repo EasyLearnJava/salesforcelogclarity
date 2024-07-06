@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f8ff;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+textarea {
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+pre, .flowchart {
+    background-color: #e0ffff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    overflow-x: auto;
+    width: 80%;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.flowchart {
+    font-family: monospace;
+    white-space: pre;
+}
+
+h2 {
+    color: #333;
+}
+
+.hidden {
+    display: none;
+}
+
+.message {
+    color: red;
+}
+
+.static-label {
+    font-weight: bold;
+    color: #cc0000; /* Less bright red color */
+}
+
+.dynamic-content {
+    color: green;
+}
