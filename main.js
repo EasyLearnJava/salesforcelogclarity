@@ -1,9 +1,7 @@
-// Import the necessary functions from the other files
 import { parseLog } from './parser.js';
 import { generateSummary } from './summaryGenerator.js';
 import { generateFlowchart } from './flowchartGenerator.js';
 
-// Event listener for the Analyze Log button
 document.getElementById('analyzeLogButton').addEventListener('click', analyzeLog);
 
 function analyzeLog() {
