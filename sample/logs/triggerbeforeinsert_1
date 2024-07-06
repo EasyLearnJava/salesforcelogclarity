@@ -1,0 +1,85 @@
+42.0 APEX_CODE,FINEST;APEX_PROFILING,FINEST;CALLOUT,FINEST;DB,INFO;NBA,INFO;SYSTEM,FINE;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+07:22:08.1 (1370820)|USER_INFO|[EXTERNAL]|0050z00000XYZDE|abc@salesforce.com|Central Standard Time|GMT-05:00
+07:22:08.1 (1439681)|EXECUTION_STARTED
+07:22:08.1 (1458517)|CODE_UNIT_STARTED|[EXTERNAL]|TRIGGERS
+07:22:08.1 (1497444)|CODE_UNIT_STARTED|[EXTERNAL]|01q6000000AKBK2|Update_OwnerLink_on_Owner_Update on Account trigger event BeforeInsert|__sfdc_trigger/Update_OwnerLink_on_Owner_Update
+07:22:08.1 (1562185)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+07:22:08.1 (3198283)|HEAP_ALLOCATE|[79]|Bytes:3
+07:22:08.1 (3283755)|HEAP_ALLOCATE|[84]|Bytes:152
+07:22:08.1 (3302512)|HEAP_ALLOCATE|[399]|Bytes:408
+07:22:08.1 (3319048)|HEAP_ALLOCATE|[412]|Bytes:408
+07:22:08.1 (3332046)|HEAP_ALLOCATE|[520]|Bytes:48
+07:22:08.1 (3365199)|HEAP_ALLOCATE|[139]|Bytes:6
+07:22:08.1 (3404335)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+07:22:08.1 (3430173)|VARIABLE_SCOPE_BEGIN|[1]|this|Update_OwnerLink_on_Owner_Update|true|false
+07:22:08.1 (3566763)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x7bb84805
+07:22:08.1 (3643998)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+07:22:08.1 (3733828)|VARIABLE_SCOPE_BEGIN|[1]|this|Update_OwnerLink_on_Owner_Update|true|false
+07:22:08.1 (3745662)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x7bb84805
+07:22:08.1 (3751206)|STATEMENT_EXECUTE|[1]
+07:22:08.1 (3780004)|HEAP_ALLOCATE|[52]|Bytes:5
+07:22:08.1 (3804028)|HEAP_ALLOCATE|[58]|Bytes:5
+07:22:08.1 (3810908)|HEAP_ALLOCATE|[66]|Bytes:7
+07:22:08.1 (4050011)|SYSTEM_METHOD_ENTRY|[6]|List<Account>.iterator()
+07:22:08.1 (4218820)|SYSTEM_METHOD_EXIT|[6]|List<Account>.iterator()
+07:22:08.1 (4253711)|SYSTEM_METHOD_ENTRY|[6]|system.ListIterator.hasNext()
+07:22:08.1 (4274441)|HEAP_ALLOCATE|[6]|Bytes:5
+07:22:08.1 (4284141)|SYSTEM_METHOD_EXIT|[6]|system.ListIterator.hasNext()
+07:22:08.1 (4322496)|HEAP_ALLOCATE|[6]|Bytes:4
+07:22:08.1 (4331434)|VARIABLE_SCOPE_BEGIN|[6]|a|Account|true|false
+07:22:08.1 (31006388)|VARIABLE_ASSIGNMENT|[6]|a|{"Payment_Term_Net_Days_to_Pay__c":"Net 15","Top_20_Renewal__c":false,"Power_of_Attorney__c":false,"Correspondance_Language__c":"English","Negotiated_Agreement__c":false,"Opportunity_Count__c":0,"Standard_Tiered_PMA__c":false,"AccountSync__c":false,"Name":"Test 2","Sensitive_Account__c":false,"SAP_Sync_Status__c":"Not Submitted","Distinct_Number_of_Accounts__c":1,"Account_Owner__c":"John Doe","Has_Active_Base_Contract__c":false,"Non_Serviceable_Indicator__c":"Serviceable","CSA__c":false,"Service_Country__c":"United States","Number_of_Closed_Lost_Opps__c":0,"Sales_Attack_Plan_Account__c":false,"Oppty_Not_Required__c":false,"Open_Acquisition_Optys__c":0,"Open_Winback_Optys__c":0,"IsDeleted":false,"Number_of_Closed_Opptys__c":0,"Has_Owner_Changed__c":false,"Previous_Country__c":"US","STATE_OF_FORMATION__c":"Texas","Sponsored_Amount_To_Date__c":0,"BP_Type__c":"Customer","PD_Above_Threshold__c":false,"IsPartner":false,"Delimiter__c":"<===>","Sponsored_Community_Amount_To_Date__c":0,"X2011_Resegmentation__c":false,"Account_Status__c":"Draft","cryptocurrency__c":false,"Opty_Annual_MWh__c":0,"Protected_Account__c":false,"OwnerId":"0050z00000XYZDE","RecordTypeId":"012O8000001MIGJIAS","User_text__c":"John Doe","Ten_Percent_Threshold__c":false,"Formal_RFP_Req_Sustainability__c":false,"Has_Load_Analyzer__c":false,"Deposit_Requirement__c":"Unknown","ASM__c":"None Assigned","Owner_Text__c":"John Doe","Open_Renewal_Optys__c":0,"Classification__c":"Mixed/Unknown","MTM_Flag__c":false,"Bill_Credit__c":false,"License_Aggregator__c":false,"Type":"Customer","TEPA_Member__c":false,"Number_of_Open_Opportunities__c":0,"Customer_Visit_Type__c":"New/Lease Up","Same_as_legal__c":false,"Is_it_mine__c":false,"Number_of_Open_Opps_SpecMkts__c":0,"Third_Party__c":"No Third Party"}|0x451f0d8e
+07:22:08.1 (31049469)|STATEMENT_EXECUTE|[6]
+07:22:08.1 (31092551)|STATEMENT_EXECUTE|[9]
+07:22:08.1 (31093962)|STATEMENT_EXECUTE|[10]
+07:22:08.1 (31110818)|LIMIT_USAGE|[10]|SCRIPT_STATEMENTS|1|200000
+07:22:08.1 (32799080)|VARIABLE_ASSIGNMENT|[10]|this.Owner_Link__c|"0050z000007RTB9AAI"|0x451f0d8e
+07:22:08.1 (32836445)|SYSTEM_METHOD_ENTRY|[6]|system.ListIterator.hasNext()
+07:22:08.1 (32864625)|HEAP_ALLOCATE|[6]|Bytes:5
+07:22:08.1 (32878154)|SYSTEM_METHOD_EXIT|[6]|system.ListIterator.hasNext()
+07:22:08.1 (32899003)|VARIABLE_ASSIGNMENT|[6]|a|null|
+07:22:08.32 (32914912)|CUMULATIVE_LIMIT_USAGE
+07:22:08.32 (32914912)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of Publish Immediate DML: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+07:22:08.32 (32914912)|TOTAL_EMAIL_RECIPIENTS_QUEUED|0
+07:22:08.32 (32914912)|STATIC_VARIABLE_LIST|
+  int:BYTES:0
+  int:BYTES:0
+  byte[]:DigitOnes:0
+  byte[]:DigitTens:0
+  Boolean:FALSE:0
+  int:MAX_EXPONENT:0
+  double:MAX_VALUE:0
+  int:MAX_VALUE:0
+  int:MIN_EXPONENT:0
+  double:MIN_NORMAL:0
+  double:MIN_VALUE:0
+  int:MIN_VALUE:0
+  double:NEGATIVE_INFINITY:0
+  double:NaN:0
+  double:POSITIVE_INFINITY:0
+  int:SIZE:0
+  int:SIZE:0
+  Boolean:TRUE:0
+  char[]:digits:0
+  long:serialVersionUID:0
+  long:serialVersionUID:0
+  long:serialVersionUID:0
+  int[]:sizeTable:0
+
+07:22:08.32 (32914912)|CUMULATIVE_LIMIT_USAGE_END
+07:22:08.1 (35252715)|CODE_UNIT_FINISHED|Update_OwnerLink_on_Owner_Update on Account trigger event BeforeInsert|__sfdc_trigger/Update_OwnerLink_on_Owner_Update
+07:22:08.1 (663709851)|CODE_UNIT_FINISHED|TRIGGERS
+07:22:08.1 (663734566)|EXECUTION_FINISHED
