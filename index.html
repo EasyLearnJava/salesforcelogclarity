@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salesforce Log Clarity</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Salesforce Log Clarity</h1>
+
+    <textarea id="logInput" rows="10" cols="80" placeholder="Paste your Salesforce log here..."></textarea><br>
+    <button id="analyzeLogButton">Analyze Log</button>
+    <p id="message" class="message hidden">Enter valid Salesforce log</p>
+
+    <h2 id="summaryTitle" class="hidden">Summary</h2>
+    <pre id="logSummary" class="hidden"></pre>
+
+    <h2 id="flowchartTitle" class="hidden">Flowchart</h2>
+    <div class="flowchart hidden" id="flowchart"></div>
+
+    <script src="parser.js"></script>
+    <script src="summaryGenerator.js"></script>
+    <script src="flowchartGenerator.js"></script>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
