@@ -31,7 +31,7 @@ export function generateSummary(parsedLog) {
     if (parsedLog.triggerDetails) {
         summaryText += `
   - <span class="static-label">TriggerBlock</span>:
-      <span class="static-label">Object</span>: <span class="dynamic-content">${parsedLog.object}</span>
+      <span class="static-label">Object</span>: <span class="dynamic-content">Account</span>
       <span class="static-label">Trigger</span>: <span class="dynamic-content">${parsedLog.triggerDetails.triggerName}</span>
       <span class="static-label">Event</span>: <span class="dynamic-content">${parsedLog.triggerDetails.triggerEvent}</span>
       <span class="static-label">Record</span>: ${Object.entries(parsedLog.record).map(([key, value]) => `
